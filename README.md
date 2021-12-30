@@ -1,5 +1,5 @@
 # List Files and Directories with GoLang based HTTP Server
-core.go needs [mux] (https://github.com/gorilla/mux) library.
+core.go needs [mux] library.
 ![project](project.png)
 
 # TO MAKE IT WORK:
@@ -7,3 +7,5 @@ core.go needs [mux] (https://github.com/gorilla/mux) library.
 
 # TO BUILD:
 `go build server.go` or `go build core.go`
+
+[mux]: https://github.com/gorilla/mux
