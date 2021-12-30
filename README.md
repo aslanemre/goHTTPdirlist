@@ -3,7 +3,7 @@ core.go needs [mux] library.
 ![project](project.png)
 
 # TO MAKE IT WORK:
-`go run server.go`  or `go build core.go`
+`go run server.go`  or `go run core.go`
 
 # TO BUILD:
 `go build server.go` or `go build core.go`
