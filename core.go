@@ -10,7 +10,7 @@ import (
 
 func home(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(200)
-	w.Write([]byte("<title>Ansayfa</title>\n"))
+	w.Write([]byte("<title>Anasayfa</title>\n"))
 	w.Write([]byte("<center><h1>Anasayfa</h1></center><br>\n"))
 	w.Write([]byte("<center><h3><a href='/listele'>Listele</a></h3></center><br>"))
 }
